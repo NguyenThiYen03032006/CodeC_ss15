@@ -1,8 +1,8 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
 	char text[50]="hello world";
-	int count=0;
-	int size=strlen(text); 
+	unsigned long size=strlen(text); 
 	char word[50]; 
 	int a=0; 
 	int number[50]={0}; 
